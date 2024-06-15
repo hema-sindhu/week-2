@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu with Higher z-index</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1000; 
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button>Dropdown</button>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tenetur sunt harum soluta recusandae et neque id. Enim veritatis aut, debitis quia delectus nam. Voluptates aperiam animi est tempora molestiae et perferendis maxime impedit quidem. Iste qui temporibus sunt omnis esse, reiciendis voluptas, expedita perferendis aperiam odit doloremque ex enim deserunt, corporis assumenda sequi cum deleniti doloribus sed! Quae odit saepe mollitia nesciunt neque reprehenderit debitis excepturi vel a blanditiis sit ad suscipit, voluptate asperiores maiores quia deserunt autem beatae ullam. Perferendis veniam soluta eius sint. Soluta dolores at iure modi, accusantium, fugiat molestias ducimus, aliquid tempora consequuntur incidunt placeat.</p>
+</body>
+</html>

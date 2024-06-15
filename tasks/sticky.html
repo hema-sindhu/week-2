@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        .content {
+            padding-top: 60px; 
+            text-align: center;
+        }
+
+        .section {
+            height: 500px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            margin: 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Sticky Header</h1>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="Image">
+            <p>One of the most significant benefits of spending time in nature is its ability to reduce stress and promote relaxation. Studies have shown that exposure to natural settings, such as parks or gardens,In addition to its direct benefits to human health, nurturing a connection with nature fosters environmental stewardship and conservation. By experiencing the beauty and wonder of the natural world firsthand, individuals develop a sense of appreciation and responsibility towards protecting our planet's ecosystems. This awareness is crucial in addressing global environmental challenges such as climate change, deforestation, pollution, and loss of biodiversity. Initiatives that promote nature conservation, sustainable living practices, and eco-friendly technologies are essential for preserving the planet for future generations.</p></div>
+    </div>
+</body>
+</html>

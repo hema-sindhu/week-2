@@ -1,0 +1,37 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#navbar img {
+    height: 20px; 
+    width: 300px; 
+    object-fit: cover; 
+    margin-left: 20px;
+}
+
+#navbar .nav-links {
+    display: flex; 
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none; 
+    padding: 10px 20px; 
+    font-size: 22px; 
+    display: inline-block; 
+}
+
+#navbar a:hover {
+    background-color: #575757; 
+}
